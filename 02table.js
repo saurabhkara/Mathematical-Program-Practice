@@ -9,3 +9,11 @@
 // 9 18 27 36 45 54 63 72 81 90
 
 
+function table(num){
+    const tabArr= [];
+    for(let i=1;i<=10;i++){
+        tabArr.push(num*i);
+    }
+    return tabArr;
+}
+console.log(table(5));
